@@ -14,7 +14,7 @@ angular.module('rainOrShineWeatherAppApp')
   // ...
 
   // Public API here
-  return $resource('http://api.openweathermap.org/data/2.5/weather?q=:location&units=imperial&APPID=YOUR_API_KEY_HERE', {}, {
+  return $resource('http://api.openweathermap.org/data/2.5/weather?q=:location&units=imperial&APPID=f871cb1a287c72d24f93963850b0e09e', {}, {
     query: {
       method:'GET',
       params:{
